@@ -5,12 +5,11 @@ To run the code
 
 
 ```ruby
-
 python mai.py --dataset_ID 0  --action 0
-
---action 0-8 please read the main file to actions function (action 0 and 1 trainhe taget model and substitude model without any defense respectively for a given dataset)
-action 3 tests the target and shadow models again label-based membership inference attack  which uses HopSkipJum. To turn the LDL defense set the defense to and and use your sigma values (--defense 1 --sigma 0.02)
 ```
+
+action 0-8 please read the main file to actions function (action 0 and 1 trainhe taget model and substitude model without any defense respectively for a given dataset)
+action 3 tests the target and shadow models again label-based membership inference attack  which uses HopSkipJum. To turn the LDL defense set the defense to and and use your sigma values (--defense 1 --sigma 0.02)
 
 
 
