@@ -8,9 +8,9 @@ To run the code
 python mai.py --dataset_ID 0  --action 0
 ```
 
-We define 9 different actions (0-8). 
-action 0 and 1 trainhe taget model and substitude model without any defense respectively for a specified dataset (ID of each dataset CIFAR10: 0 , CIFAR100: 1, GTSRB: 2 and Fac3: 3). The training hyperparameter such as number of epochs, batchsize learning rate, etc. can be given.
-action 3 tests the target and shadow models again label-based membership inference attack  which uses HopSkipJum. To turn the LDL defense set the defense to and and use your sigma values (--defense 1 --sigma 0.02)
+We defined 9 different actions (0-8). 
+Actions 0 and 1 train the taget model and substitude model without any defense respectively for a specified dataset (ID of each dataset CIFAR10: 0 , CIFAR100: 1, GTSRB: 2 and Fac3: 3). The training hyperparameter such as number of epochs, batchsize learning rate, etc. can be given.
+Action 3 tests the target and shadow models against the label-based membership inference attack which uses HopSkipJum. To turn the LDL defense for avaluating against MIA attacks, set the defense to 1 and and use your desired sigma values (--defense 1 --sigma 0.02)
 Please read the main file to find the actions' function.
 
 We provided the code for sampling from LFW dataset for Face dataset in lfw.py 
