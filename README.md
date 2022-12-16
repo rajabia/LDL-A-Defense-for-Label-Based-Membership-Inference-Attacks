@@ -23,7 +23,7 @@ The adversarialRobustenss.py provides the codes for evaluating the the LDL defen
 
 @article{rajabi2023LDL
   title={LDL: A Defense for Label-Based Membership Inference Attacks},
-  author={Rajabi, Arezoo and Sahabandu, Dinuka amd Niu, Luyao and  Ramasubramanian, Bhaskar and and Poovendran, Radha},
+  author={Rajabi, Arezoo and Sahabandu, Dinuka and Niu, Luyao and  Ramasubramanian, Bhaskar and and Poovendran, Radha},
   journal={18th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS)},
   year={2023}
 }
