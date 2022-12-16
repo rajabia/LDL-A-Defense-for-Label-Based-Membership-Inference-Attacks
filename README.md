@@ -5,7 +5,7 @@ To run the code
 
 
 ```ruby
-python mai.py --dataset_ID 0  --action 0
+python main.py --dataset_ID 0  --action 0
 ```
 
 We defined 9 different actions (0-8). 
