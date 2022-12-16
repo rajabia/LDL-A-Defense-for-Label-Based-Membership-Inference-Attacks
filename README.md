@@ -8,8 +8,14 @@ To run the code
 python mai.py --dataset_ID 0  --action 0
 ```
 
-action 0-8 please read the main file to actions function (action 0 and 1 trainhe taget model and substitude model without any defense respectively for a given dataset)
+We define 9 different actions (0-8). 
+action 0 and 1 trainhe taget model and substitude model without any defense respectively for a given dataset
 action 3 tests the target and shadow models again label-based membership inference attack  which uses HopSkipJum. To turn the LDL defense set the defense to and and use your sigma values (--defense 1 --sigma 0.02)
+Please read the main file to find the actions' function
+
+We provided the code for sampling from LFW dataset for Face dataset in lfw.py 
+
+The adversarialRobustenss.py provides the codes for evaluating the the LDL defense with different sigma againt adversarial learning method of fast gradient sign.
 
 
 
